@@ -9,7 +9,7 @@ st.set_page_config(layout="wide")
 "# Netherlands Corona Data"
 
 # load data
-geo_json_path = "../data/raw_data/shapefiles/nl.geojson"
+geo_json_path = "data/raw_data/shapefiles/nl.geojson"
 corona_NL_data = pd.read_csv("data/raw_data/corona/nl_corona.csv", sep="\t").dropna()
 
 with open("data/raw_data/metadata/nl_metadata.json", "r") as f:
