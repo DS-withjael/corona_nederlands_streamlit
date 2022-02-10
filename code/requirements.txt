@@ -3,4 +3,4 @@ jsonschema==4.4.0
 folium==0.12.1
 streamlit==1.5.1
 streamlit-folium==0.5.0
-datetime==2.8.2
+datetime==4.3
