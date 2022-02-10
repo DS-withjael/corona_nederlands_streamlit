@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 
 ##################### LOAD AND PARSE DATA ########################
 geo_json_path = "../../data/raw_data/shapefiles/nl.geojson"
-corona_NL_data = pd.read_csv("../../data/raw_data/corona/nl_corona.csv", sep="\t")
+corona_NL_data = pd.read_csv("/data/raw_data/corona/nl_corona.csv", sep="\t")
 
 with open("../data/raw_data/metadata/nl_metadata.json", "r") as f:
     country_metadata = json.load(f)
