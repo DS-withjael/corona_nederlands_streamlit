@@ -4,7 +4,6 @@ import pandas as pd
 import json
 import folium
 from streamlit_folium import folium_static
-import matplotlib.pyplot as plt
 st.set_page_config(layout="wide")
 
 "# Netherlands Corona Data"
