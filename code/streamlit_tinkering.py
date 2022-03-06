@@ -38,7 +38,7 @@ with st.container(): # SLIDER CONTAINER
     end_date = dt.date(year=2021, month=2, day=27)
     max_days = end_date-start_date
 
-    slider = str(st.slider('Slide through the corona pandemic in the Netherlands:', min_value=start_date, value=start_date ,max_value=end_date, format=format))
+    slider = str(st.slider('Slide through the corona pandemic in the Netherlands:', min_value=start_date, value=dt.date(year=2020, month=7, day=11) ,max_value=end_date, format=format))
 
 ################## STREAMLIT LAYOUT ####################################
 
