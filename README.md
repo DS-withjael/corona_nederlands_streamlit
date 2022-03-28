@@ -1,2 +1,5 @@
 # corona_nederlands_streamlit
-A github repo to host a corona nederlands streamlit dashboard
+
+ITU Bsc Data Science 2nd Semester First Year Project, Project 1
+
+A github repo to host a corona nederlands streamlit data-dashboard
